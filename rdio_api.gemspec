@@ -10,21 +10,21 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/anilv/rdio_api"
   s.summary     = %q{A Ruby wrapper for the Rdio API}
   s.description = %q{A Ruby wrapper for the Rdio API}
-  
+
   s.add_development_dependency 'rake', '~> 0.9'
   s.add_development_dependency 'rspec', '~> 2.6'
   s.add_development_dependency 'webmock', '~>1.6'
   s.add_development_dependency 'oauth', '~>0.4.5'
   s.add_development_dependency 'rb-fsevent'
   s.add_development_dependency 'guard-rspec'
-  
+
 
   s.add_runtime_dependency 'faraday', '~> 0.8.0'
   s.add_runtime_dependency 'faraday_middleware', '~> 0.8.7'
   s.add_runtime_dependency 'hashie', '~> 1.2.0'
   s.add_runtime_dependency 'multi_json', '~> 1.3'
 
-  s.add_runtime_dependency 'simple_oauth', '~> 0.1.5'
+  s.add_runtime_dependency 'simple_oauth', '~> 0.2.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
